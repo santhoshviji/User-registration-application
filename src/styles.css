@@ -1,0 +1,57 @@
+/* Common styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('./images/2.jpg'); /* Make sure the path is correct */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; /* Ensures the background stays fixed */
+  background-position: center;
+  min-height: 100vh; /* Ensures the background fills the whole viewport */
+  margin: 0; /* Removes any margin around the body */
+}
+
+form {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+/* RegistrationForm specific styles */
+.registration-container {
+  background-image: url('./images/2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.registration-container form {
+  height: auto;
+}
+
+/* EditUser specific styles */
+.edit-user-container {
+  background-image: url('./images/2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.edit-user-container form {
+  height: auto;
+}
+.heading{
+  text-align: center;
+}
